@@ -1,0 +1,109 @@
+/*
+h1{
+  color: orange;
+  background-color: brown;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: Arial;
+  text-align: center;
+}
+
+*/
+
+/*
+p{
+  color: slategray;
+  text-align: right;
+  line-height: 30px;
+  letter-spacing: 3px;
+  column-count: 3;
+  column-gap: 60px;
+}
+*/
+ /*
+ul{
+ 
+
+  border-width: 4px;
+  border-style: solid;
+  border-color: crimson; 
+  border: 4px solid crimson;
+  border-bottom: 4px dashed crimson;
+  border-left: 8px solid crimson;
+}
+ */
+
+ /*
+li{
+  list-style-type: none;
+ /*text-shadow: 2px 2px lightgray; 
+text-shadow: 2px 2px gray;
+}
+*/
+
+/*
+P.error{
+  color: red; 
+}
+p.success{
+  color: rgb(13, 9, 223);
+}
+p.success.feedback{
+border: 2px dashed gold;
+color: aquamarine;
+}
+ 
+div#content{
+  background-color: #ebebeb ;
+  padding: 20px ;
+}
+div#create{ 
+  background-image: url(Healing_Worship_Ministry.JPG);
+  padding: 40px;
+}
+
+a[href]{
+  background-color: aqua;
+}
+
+a[href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_background_multiple"]{
+  background-color: #3dd13d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+*/
+
+/* any other link with the name youtube we use [href*=""] */
+a[href*="youtube"]{
+
+color: yellow;
+background-color: black;
+border: 2px ;
+}
+/* any other link which end of the value with the name youtube we use [href$=""] */
+
+a[href$="fr"]{
+
+  color: rgb(25, 0, 255);
+  background-color: black;
+  border: 2px  solid yellow;
+  }
+
+  /*INHERITANCE*/
+
+
+  div{
+    background-color: rgb(231, 214, 119);
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+  }
+
+  p{
+    margin: inherit;
+    border: inherit;
+    color: rgb(32, 2, 8);
+  }

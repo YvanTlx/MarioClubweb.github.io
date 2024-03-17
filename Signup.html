@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  
+</head>
+<body>
+  <p> LOGIN</p>
+  <form>
+ 
+   <label for="username"> Enter Username</label>
+   <input type="text" id="username" name="username" placeholder="username" required>
+   <br><br> 
+   <label for="email"> Enter Email</label>
+   <input type="text" id="email" name="email" placeholder="email" required>
+   <br><br> 
+   <label for="password"> Password</label>
+   <input type="password" id="password" name="password" placeholder="password" required>
+   <br>
+
+<p>Select your age:</p>
+
+<input type="radio" name="age" value="0-25" id="option-1">
+<label for="option-1">0-25</label>
+<input type="radio" name="age" value="26-50" id="option-2">
+<label for="option-2">26-50</label>
+<input type="radio" name="age" value="51+" id="option_3">
+<label for="option_3">51+</label>
+<br>
+
+    <label for="question">Security Questions: </label>
+      <select name="question" id="question">
+        <option value="q1">What colo are your favorite pair of socks</option>
+        <option value="q2">What favorite meal</option>
+        <option value="q3">What colo are your favorite pair of socks</option>
+      </select>
+      <br>
+      <br>
+    <label for="answer">Security Question Answer</label>
+      <input type="answer " name="answer" id="answer" > 
+      <br>
+      <br>
+      <label for="bio">Your Bio:</label> <br>
+      <textarea name="bio" id="bio" cols="10" rows="10" placeholder="about you.."></textarea>
+       <br> 
+      <input type="button" value="submit" >
+  </form>
+</body>
+</html>
